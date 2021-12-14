@@ -1,0 +1,138 @@
+div.body {
+    width: 900px;
+    border-radius: 5px;
+    z-index: -1;
+    margin-top: 35px;
+    left: auto;
+    right: auto;
+    background-color: lightgrey;
+    filter: drop-shadow(0px -2px 2px gray);
+    padding:5px;
+    text-align: left;
+    font-size:20px;
+}
+
+img.bod {
+    width: 155px;
+    height: 155px;
+    border-radius: 5px;
+    filter: drop-shadow(0px -2px 2px gray);
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.header{
+    color:rgb(0, 0, 0);
+    font-size:25px;
+}
+
+div.nav {
+    height: 28px;
+    width: 100px;
+    background-color: darkgrey;
+    transition: 0.5s;
+    display: inline-block;
+    filter: drop-shadow(0px -2px 2px gray);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    margin-top: -15px;
+}
+
+div.here:hover {
+    height: 35px;
+    width:  125px;
+    filter: drop-shadow(0px -5px 5px gray);
+}
+
+div.here {
+    height: 28px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    display: inline-block;
+    filter: drop-shadow(0px -2px 2px gray);
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    margin-top: -15px;
+}
+
+div.nav:hover {
+    height: 35px;
+    width: 125px;
+    filter: drop-shadow(0px -5px 5px gray);
+}
+
+div.navi {
+    width: 500px;
+    background-color: lightgray;
+    height: 55px;
+    border-radius: 5px;
+    filter: drop-shadow(0px -2px 2px gray);
+    z-index:100;
+    margin-top:25px;
+    font-weight: normal;
+}
+
+p.nav:hover {
+    top: -30%;
+}
+
+a{
+    text-decoration: none;
+    transition:0s;
+}
+
+
+p.nav {
+    position: relative;
+    top: -40%;
+    height: 100%;
+    transition: 0.5s;
+    font-size: 16px;
+    color: white;
+}
+
+p.nav:hover {
+    top: -45%;
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Agency FB';
+    font-weight:bold;
+}
+
+table {
+    border-radius: 5px;
+    filter: drop-shadow(0px -2px 2px gray);
+    background-color: darkgray;
+    padding: 5px;
+}
+
+td.games {
+    padding:5px;
+    border-radius: 5px;
+    width:150px;
+    color:white;
+    font-weight:normal;
+}
+
+td.gt {
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    filter: drop-shadow(0px -2px 2px gray);
+    border-radius: 5px;
+    width: 150px;
+    color:white;
+}
